@@ -1,0 +1,40 @@
+hello,hello,24/12/03 17:20:14
+hello,good morning,24/12/03 17:22:59
+hello,hi,24/12/03 17:25:41
+how are you,See you later! Let me know if you need more help.,24/12/03 17:25:49
+how to install python,"To install Python, visit [python.org](https://www.python.org) and download the latest version. Let me know if you need platformspecific instructions!",24/12/03 17:39:48
+hello,hi,24/12/05 09:20:06
+"what is a string in python, explain with example","Strings in Python are sequences of characters enclosed in single (`'`) or double quotes. They are immutable, meaning their content cannot be changed. You can perform operations like slicing, concatenation, and repetition, as well as use built-in methods for manipulation (e.g., `.lower()`, `.upper()`, `.replace()`)./n ### Example:/n ```python/n # Creating strings/n text = 'Hello, World!'/n # Accessing characters/n print(text[/n 0        ])   # Output: H/n # Slicing/n print(text[/n             0: 5/n         ])  # Output: Hello/n # Concatenation/n print(text + ' How are you?')  # Output: Hello, World! How are you?/n # Methods/n print(text.lower())  # Output: hello, world!/n print(text.upper())  # Output: HELLO, WORLD!/n print(text.replace('World', 'Python'))  # Output: Hello, Python!``` ",24/12/05 09:20:39
+how to take user input in python,"In Python, user input is taken using the `input()` function, which returns the input as a string. To convert it to another data type, like `int` or `float`, use type casting. You can handle multiple inputs with `split()` and manage invalid inputs using `try-except`.",24/12/05 09:22:37
+what is a string in python,"In Python, strings are sequences of characters enclosed in single (') or double quotes. Strings support various operations like concatenation, slicing, and methods such as .lower(), .upper(), .replace(), and .split(). 
+ ### Example:
+ python
+ # Creating a string
+ my_string = 'Hello, Python!'
+ # Accessing characters
+ print(my_string[
+             0
+         ])  # Output: 'H'
+ # Slicing
+ print(my_string[            7: 13
+         ])  # Output: 'Python'
+ # String methods
+ print(my_string.lower())  # Output: 'hello, python!'
+ print(my_string.replace('Python',
+         'World'))  # Output: 'Hello, World!'
+ 
+ ### Common String Operations:
+ - **Concatenation:** 
+   python
+   result = 'Hello' + ' ' + 'World' 
+ # Output: 'Hello World'
+   
+ - **Length:** 
+   python
+   len(my_string)  # Output: 14
+   
+ Strings are immutable, meaning once created, they cannot be changed directly. You can create a new string based on modifications.
+ ",24/12/05 18:09:30
+what is a operator,"Python operators are special symbols or keywords that perform operations on operands. Types include: /n 1. Arithmetic: +, -,*, /, //, %,  **(math operations)./n 2. Comparison: ==, !=, >, <, >=, <= (comparison between values)./n 3. Logical: and, or, not (logical conditions)./n 4. Bitwise: &, |, ^, ~, <<, >> (binary operations)./n 5. Assignment: =, +=, -=, =, /=, etc. (assign values)./n 6. Membership: in, not in (check membership in a collection)./n 7. Identity: is, is not (compare object identity).
+ They enhance Python's versatility in handling operations on data.",24/12/05 19:44:02
+what is a dictonary in python,"A dictionary in Python is an unordered collection of key-value pairs, defined using curly braces {}. Each key is unique, and values can be of any data type. Dictionaries support operations like accessing values via keys, addingemoving pairs, and updating values, making them ideal for storing structured data.",24/12/06 09:16:35

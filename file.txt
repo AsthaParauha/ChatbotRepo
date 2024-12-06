@@ -1,0 +1,457 @@
+ {
+        // string methods
+        1.  lower() : Converts to lowercase.  
+2.  
+() : Converts to uppercase.  
+3.  strip() : Removes leading/trailing spaces.  
+4.  replace(old, new) : Replaces substrings.  
+5.  split(separator) : Splits into a list.  
+6.  join(iterable) : Joins items with a string.  
+7.  find(sub) : Finds substring index.  
+8.  count(sub) : Counts occurrences.  
+9.  startswith(prefix) : Checks prefix.  
+10.  endswith(suffix) : Checks suffix.,
+
+
+1.  lower() : Converts all characters to lowercase.  
+2.  upper() : Converts all characters to uppercase.  
+3.  strip() : Removes whitespace from the start and end of the string.  
+4.  replace(old, new) : Replaces occurrences of a substring with another.  
+5.  split(separator) : Splits the string into a list of substrings based on a delimiter.  
+6.  join(iterable) : Combines items from an iterable into a single string, separated by the string calling join.  
+7.  find(sub) : Returns the index of the first occurrence of a substring, or -1 if not found.  ,
+
+1.  lower() : Converts all characters to lowercase.  
+2.  upper() : Converts all characters to uppercase.  
+3.  strip() : Removes whitespace from the start and end of the string.  
+4.  replace(old, new) : Replaces occurrences of a substring with another.  
+5.  split(separator) : Splits the string into a list of substrings based on a delimiter.  
+6.  join(iterable) : Combines items from an iterable into a single string, separated by the string calling join.  
+7.  find(sub) : Returns the index of the first occurrence of a substring, or -1 if not found.
+    },
+    {
+        // list
+        A list in Python is an ordered, mutable collection that stores elements of any data type. Defined using square brackets ([]), lists support operations like indexing, slicing, and methods such as append(), remove(), and sort(). They are versatile and ideal for handling dynamic, sequential data.,
+
+        A list in Python is an ordered, mutable collection of elements, defined using square brackets []. Lists can store diverse data types and support operations like indexing, slicing, adding (append()), and removing (remove()) elements. They are dynamic in size and can be modified after creation.
+    }
+    {
+        // set
+        A set in Python is an unordered, mutable collection of unique elements, defined using curly braces {} or the set() function. Sets support operations like union, intersection, and difference. Duplicate elements are automatically removed. Common methods include add(), remove(), and discard(). Sets are useful for membership testing.,
+
+        A set in Python is an unordered collection of unique elements, defined using curly braces {}. Sets eliminate duplicate values and support operations like union, intersection, and difference. They are mutable, meaning elements can be added or removed, but they do not support indexing or slicing.
+    }
+    {
+        // touple
+        A tuple in Python is an ordered, immutable collection of elements, defined using parentheses (). Tuples can store multiple data types and support indexing, slicing, and iteration. Since they cannot be modified, they are used for fixed collections of data, offering faster performance compared to lists.,
+
+        A tuple in Python is an ordered, immutable collection of elements, defined using parentheses (). Unlike lists, tuples cannot be modified after creation. They can store elements of different data types and support operations like indexing, slicing, and iteration. Tuples are often used for fixed collections of items.,
+
+        A tuple in Python is an ordered, immutable collection of elements, defined using parentheses (). Unlike lists, tuples cannot be modified after creation. They can store multiple data types and support indexing, slicing, and iteration. Tuples are often used for fixed collections of related items.
+    }
+    {
+        // dictonary
+        A dictionary in Python is an unordered collection of key-value pairs, defined using curly braces {}. Keys must be unique and immutable, while values can be any data type. Dictionaries support operations like adding, updating, or deleting pairs, and are ideal for fast lookups by key.
+
+        A dictionary in Python is an unordered collection of key-value pairs, defined using curly braces {}. Each key must be unique, and values can be of any data type. Dictionaries support operations like adding, removing, and accessing values using keys, making them useful for fast lookups and associations.
+
+        A dictionary in Python is an unordered collection of key-value pairs, defined using curly braces {}. Each key is unique, and values can be of any data type. Dictionaries support operations like accessing values via keys, adding/removing pairs, and updating values, making them ideal for storing structured data.
+    }
+    {
+        // conditional statment
+        Conditional statements in Python allow you to execute code based on specific conditions. The if statement checks a condition, followed by optional elif (else if) and else blocks. If the condition is true, the corresponding code runs; otherwise, the code in the else block executes (if provided).,
+
+        Conditional statements in Python allow decision-making based on conditions. The if statement executes a block of code if a condition is true. elif checks additional conditions, while else runs code when no conditions are true. These statements enable control flow in programs based on logical expressions.
+    }
+    {
+        // if statment
+        The if statement in Python executes a block of code if a condition is true. It is used for decision-making.
+
+### Example:
+python
+age = 18
+if age >= 18:
+    print("You are an adult.")
+
+This prints "You are an adult." because the condition is true.,
+
+The if statement in Python executes a block of code if a specified condition is true. If the condition is false, the code inside the if block is skipped.
+
+### Example:
+python
+age = 18
+if age >= 18:
+    print("You are an adult.")
+
+This prints "You are an adult." if the condition is true.
+    },
+    {
+        // if else statmetn
+        The if-else statement in Python executes one block of code if the condition is true, and another block if the condition is false.
+
+### Example:
+python
+age = 16
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+This prints "You are a minor." since the condition is false.,
+
+The if-else statement in Python executes one block of code if the condition is true and another if it's false.
+
+### Example:
+python
+age = 16
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+This prints "You are a minor" because the condition is false.,
+
+An if-elif ladder in Python allows checking multiple conditions in sequence. The first condition that evaluates to True executes its block of code, and the rest are skipped. If none of the conditions are true, the else block (if present) executes.
+
+### Example:
+python
+x = 10
+if x > 20:
+    print("Greater than 20")
+elif x == 10:
+    print("Equal to 10")
+else:
+    print("Other value")
+
+    }
+    {
+        // loops statmetn
+        Loops in Python allow repetitive execution of code. The for loop iterates over a sequence (like a list or range), while the while loop repeats as long as a condition is true. Both support control statements like break (to exit) and continue (to skip an iteration)..
+
+        Loops in Python allow repeated execution of a block of code. The for loop iterates over a sequence (e.g., list, string), while the while loop runs as long as a condition is true. Both loops can include break to exit early and continue to skip iterations.
+
+### Example:
+python
+for i in range(5):
+    print(i)
+
+    },
+    {
+        // while loop
+        A while loop in Python repeatedly executes a block of code as long as a specified condition is true. If the condition is initially false, the loop won't run. To avoid infinite loops, ensure the condition eventually becomes false.
+
+### Example:
+python
+x = 0
+while x < 5:
+    print(x)
+    x += 1
+
+
+A while loop in Python repeatedly executes a block of code as long as a given condition remains true. The loop stops when the condition evaluates to false. It's important to ensure the condition eventually becomes false to avoid an infinite loop.
+
+### Example:
+python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+    }
+    {
+        // do while loop
+        Python does not have a built-in do-while loop like some other languages. However, a similar behavior can be achieved using a while loop with an initial condition that is guaranteed to execute at least once.
+
+### Example:
+python
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+  
+This ensures the loop runs at least once before checking the condition.,
+
+Python doesn't have a built-in do-while loop, but you can mimic it using a while loop with a condition at the end. The loop will execute at least once, regardless of the condition, then continue as long as the condition remains true.
+
+### Example:
+python
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+
+    }
+    {
+        // for loop in python
+        A for loop in Python iterates over a sequence (like a list, string, or range) and executes a block of code for each item. It's commonly used for iterating over collections or repeating actions a specific number of times.
+
+### Example:
+python
+for i in range(5):
+    print(i)
+,
+
+A for loop in Python iterates over a sequence (like a list, string, or range), executing a block of code for each element. It is commonly used when the number of iterations is known or for iterating through items in an iterable object.
+
+### Example:
+python
+for i in range(5):
+    print(i)
+
+    }
+    {
+        // funtions 
+        Functions in Python are reusable blocks of code that perform a specific task. They are defined using the def keyword and can accept parameters, returning a value with the return statement. Functions help organize code, improve readability, and allow for modular programming.
+
+### Example:
+python
+def greet(name):
+    return "Hello, " + name
+,
+
+Functions in Python are reusable blocks of code that perform specific tasks. They are defined using the def keyword, followed by the function name and parameters. Functions can return values using the return statement. They help organize code and make it modular.
+
+### Example:
+python
+def greet(name):
+    return "Hello, " + name
+,
+
+Here’s how we define a Python function:
+
+### Example:
+python
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(3,
+        5)
+print(result)  # Output: 8
+
+
+This function takes two parameters, adds them, and returns the sum.
+    }
+    {
+        // file 
+        // read file 
+        In Python, you can read a file using the open() function and the read() method. The open() function opens the file, and read() retrieves its contents. Always close the file after reading using the close() method or by using a with statement for automatic closing.
+
+### Example:
+python
+with open("file.txt",
+        "r") as file:
+    content = file.read()
+    print(content)
+,
+
+In Python, you can read a file using the open() function with the mode 'r' (read). After opening the file, use methods like .read() to read the entire content or .readlines() to get each line as a list. Always close the file using .close().
+
+### Example:
+python
+with open('file.txt', 'r') as file:
+    content = file.read()
+    print(content)
+s
+    }
+    {
+        // write file
+        In Python, you can write to a file using the open() function with the mode 'w' (write) or 'a' (append). The write() method writes content to the file. Use 'w' to overwrite the file or 'a' to append content.
+
+### Example:
+python
+with open('file.txt', 'w') as file:
+    file.write("Hello, world!")
+
+
+This writes "Hello, world!" to the file. The with statement ensures the file is automatically closed after writing.,
+
+In Python, you can write to a file using the open() function with the mode 'w' (write) or 'a' (append). Use the .write() method to add content to the file. The with statement automatically closes the file when done.
+
+### Example:
+python
+with open('file.txt', 'w') as file:
+    file.write("Hello, Python!")
+
+
+This will overwrite the file's content with "Hello, Python!". Use 'a' to append instead.
+    }
+    {
+        // file mode 
+        In Python, file modes define how the file is opened. Here are the common file modes:
+
+1.  'r' : Read (default mode). Opens a file for reading. If the file doesn't exist, it raises an error.
+2.  'w' : Write. Opens a file for writing. Creates a new file if it doesn't exist and overwrites if it does.
+3.  'a' : Append. Opens a file for writing, but does not overwrite; new data is added at the end.
+4.  'b' : Binary. Opens a file in binary mode (e.g., 'rb' or 'wb').
+5.  'x' : Exclusive creation. Creates a new file, but raises an error if the file already exists.
+6.  'r+' : Read and write. Opens a file for both reading and writing.
+
+### Example:
+python
+# Opening a file for writing
+with open('file.txt', 'w') as file:
+    file.write("Hello, World!")
+,
+
+In Python, file modes specify how a file is opened. Here are the most commonly used modes:
+
+1.  'r' : Read (default). Opens the file for reading. Raises an error if the file doesn't exist.
+2.  'w' : Write. Opens the file for writing (overwrites the file if it exists).
+3.  'a' : Append. Opens the file for writing, appending data to the end of the file.
+4.  'x' : Exclusive creation. Opens the file for writing but raises an error if the file already exists.
+5.  'b' : Binary. Used with other modes (e.g., 'rb' or 'wb') for binary files.
+6.  't' : Text (default). Used with other modes (e.g., 'rt' or 'wt') for text files.
+7.  'r+' : Read and write. Opens the file for both reading and writing.
+8.  'w+' : Write and read. Opens the file for both writing (overwriting the file) and reading.
+
+### Example:
+with open('file.txt', 'r+') as file:
+content = file.read()
+print("Original content:", content)
+file.seek(0)
+file.write("Updated content")
+    }
+    {
+        // oops
+        Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. It emphasizes the use of classes and objects to model real-world entities. OOP promotes principles like encapsulation, inheritance, polymorphism, and abstraction, helping to make code more modular, reusable, and easier to maintain.
+
+Key Concepts:
+Class: A blueprint for creating objects (instances), defining their properties and behaviors.
+Object: An instance of a class, representing a specific entity with its attributes and methods.
+Encapsulation: Bundling data and methods that operate on the data within a class, restricting access to some components.
+Inheritance: A mechanism by which one class can inherit properties and behaviors from another.
+Polymorphism: The ability of different classes to provide a unique implementation of the same method or behavior.
+Abstraction: Hiding complex implementation details and exposing only essential features.,
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code around objects rather than actions. Objects represent real-world entities and consist of attributes (data) and methods (functions). The core principles of OOP are:
+
+Encapsulation: Bundling data and methods that operate on the data within a single unit (class), restricting access to some of the object's components.
+Abstraction: Hiding complex implementation details and exposing only essential features.
+Inheritance: Creating new classes from existing ones, inheriting attributes and methods.
+Polymorphism: Allowing different classes to use the same method name but behave differently based on their class.
+
+Object-Oriented Programming (OOP) is a programming paradigm where concepts are modeled as objects. Each object is an instance of a class, which defines its properties and behaviors. OOP emphasizes four main principles: encapsulation (bundling data and methods), abstraction (hiding details), inheritance (reusing code), and polymorphism (enabling different behaviors through shared interfaces). These principles help organize code for better maintainability, reusability, and scalability.
+    }
+    {
+        // class - yet to go more deep on class
+        A  class  in Python is a blueprint for creating objects. It defines attributes (data) and methods (functions) that the objects created from the class will have. Classes allow for the organization of related functions and data, supporting object-oriented principles like inheritance and encapsulation.
+
+### Key Concepts:
+-  Attributes : Variables defined within the class to store data.
+-  Methods : Functions defined within the class that perform operations on attributes or provide behavior to the object.
+-  Constructor (__init__) : A special method used to initialize a new object's attributes when it's created.
+
+Classes promote code reusability and encapsulation. You create objects (instances) from classes, which can then use the methods and access the attributes defined in the class.,
+
+A  class  in Python is a template for creating objects that bundle data (attributes) and functions (methods) together. Classes are used to model real-world entities. Objects are instances of a class and can have unique attributes and behaviors. The  __init__  method initializes an object's attributes.
+
+### Example:
+python
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+    
+    def bark(self):
+        print(f"{self.name} says Woof!")
+
+my_dog = Dog("Buddy",
+        "Golden Retriever")
+my_dog.bark()  # Output: Buddy says Woof!
+
+This class models a dog with attributes and a method.,
+
+A  class  in Python is a blueprint for creating objects, defining their attributes and methods. It allows you to encapsulate data and functionality into a single entity. Classes promote code reusability and organization by grouping related behaviors.
+
+### Example:
+python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+# Creating an object of the Person class
+person1 = Person("Alice",
+        30)
+person1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
+
+Here, the Person class defines attributes (name, age) and a method (greet). The object person1 is an instance of the class.
+    }
+    {
+        // inheritance
+         Inheritance  in Python is a mechanism that allows one class (the child or subclass) to inherit attributes and methods from another class (the parent or superclass). This helps in reusing code and creating hierarchical relationships between classes.
+
+### Key Concepts:
+1.  Parent Class : The class whose attributes and methods are inherited by another class.
+2.  Child Class : The class that inherits attributes and methods from the parent class.
+3.  Method Overriding : The child class can override methods of the parent class to provide its own implementation.
+
+### Example:
+python
+# Parent class
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        print(f"{self.name} makes a sound")
+
+# Child class inheriting from Animal
+class Dog(Animal):
+    def speak(self):
+        print(f"{self.name} barks")
+
+# Creating an object of Dog class
+dog = Dog("Buddy")
+dog.speak()  # Output: Buddy barks
+
+
+### Explanation:
+- The Dog class inherits from the Animal class.
+- It can use the __init__ method of Animal and the speak method is overridden to provide a dog-specific behavior.'
+
+',
+ Inheritance  in Python allows one class (child) to inherit attributes and methods from another class (parent), enabling code reuse and simplifying program structure. The child class can access and modify the parent class's methods and attributes. It can also override methods to provide specific behavior.
+
+### Example:
+
+python
+# Parent class
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        print(f"{self.name} makes a sound")
+
+# Child class inheriting from Animal
+class Dog(Animal):
+    def speak(self):
+        print(f"{self.name} barks")
+
+# Child class inheriting from Animal
+class Cat(Animal):
+    def speak(self):
+        print(f"{self.name} meows")
+
+# Creating objects
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+
+dog.speak()  # Output: Buddy barks
+cat.speak()  # Output: Whiskers meows
+
+
+### Explanation:
+- Dog and Cat inherit from the Animal class.
+- Both override the speak() method to give specific behavior.
+- The Dog object calls speak() to print "Buddy barks", while the Cat object prints "Whiskers meows".
+    }
+]
